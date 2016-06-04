@@ -17,11 +17,11 @@ include_recipe 'confd'
 
 service = node['ncloud-etcd']['service_name']
 
-#val = File.read('/tmp/key')
-#etcd_key "/foo" do
-#  value val
-#  action 'set'
-  #port 4001
+val = File.read('/tmp/key')
+etcd_key "/foo" do
+  value val
+  action 'set'
+  port 4001
 #  port 2379
 #end
 
