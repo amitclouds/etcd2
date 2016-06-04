@@ -23,7 +23,7 @@ etcd_key "/foo" do
   action 'set'
   port 4001
 #  port 2379
-#end
+end
 
 confd_template '/tmp/foo' do
   template_source 'foo.tmpl.erb'
