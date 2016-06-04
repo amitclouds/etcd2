@@ -5,7 +5,7 @@ default['confd']['config'] = {
   'backend' => 'etcd',
   'confdir' => '/etc/confd',
   'interval' => 600,
-  'nodes' => 'http://127.0.0.1:2379',
+  'nodes' => 'http://127.0.0.1:4001',
   'noop' => false,
   'scheme' => 'http'
 }
