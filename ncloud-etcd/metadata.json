@@ -1,0 +1,44 @@
+{
+  "name": "ncloud-etcd",
+  "description": "Installs/Configures ncloud-etcd",
+  "long_description": "Installs/Configures ncloud-etcd",
+  "maintainer": "The Authors",
+  "maintainer_email": "you@example.com",
+  "license": "all_rights",
+  "platforms": {
+  },
+  "dependencies": {
+    "etcd": ">= 0.0.0",
+    "confd": ">= 0.0.0",
+    "build-essential": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.1",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}
